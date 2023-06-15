@@ -1,0 +1,15 @@
+impl/
+.idea/
+target/
+work/
+pnr/
+gwsynthesis/
+temp/
+gao/
+output_trace/
+*pom.xml
+*Comparison.xlsx
+*.wlf
+*gprj.user
+*.gao
+*.bak
