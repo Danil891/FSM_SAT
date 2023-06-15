@@ -1,0 +1,18 @@
+@startuml
+state "St0"
+St0: state value 0
+St1: state value 1
+St2: state value 1
+St0 --> St0 : 0b10
+St0 --> St0 : 0b11
+St0 --> St2 : 0b0
+St0 --> St2 : 0b1
+St1 --> St0 : 0b0
+St1 --> St1 : 0b11
+St1 --> St2 : 0b1
+St1 --> St2 : 0b10
+St2 --> St0 : 0b0
+St2 --> St0 : 0b10
+St2 --> St0 : 0b11
+St2 --> St1 : 0b1
+@enduml

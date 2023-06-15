@@ -1,0 +1,34 @@
+//Copyright (C)2014-2022 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: 1.9.8.06-1
+//Part Number: GW2A-LV55PG484C8/I7
+//Device: GW2A-55C
+//Created Time: Sat 07 02 17:49:40 2022
+
+IO_LOC "divided_clk" E20;
+IO_PORT "divided_clk" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "out_pin_3" D19;
+IO_PORT "out_pin_3" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "out_pin_2" E19;
+IO_PORT "out_pin_2" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "out_pin_1" C20;
+IO_PORT "out_pin_1" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "out_b" B21;
+IO_PORT "out_b" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "out_a" B20;
+IO_PORT "out_a" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "out_top_3" U17;
+IO_PORT "out_top_3" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "out_top_2" T17;
+IO_PORT "out_top_2" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "out_top" V22;
+IO_PORT "out_top" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "reset" Y21;
+IO_PORT "reset" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "clk" M19;
+IO_PORT "clk" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "dataB" W22;
+IO_PORT "dataB" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "dataA" AB21;
+IO_PORT "dataA" IO_TYPE=LVCMOS33 PULL_MODE=UP;
